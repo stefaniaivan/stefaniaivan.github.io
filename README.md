@@ -1,2 +1,2 @@
 # stefaniaivan.github.io
-[Visit Portfolio](https://github.com/stefaniaivan/stefaniaivan.github.io.git)
+[Visit Portfolio](https://stefaniaivan.github.io/)

@@ -1,9 +1,259 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefania Ivan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
 <body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.svg" alt="Logo" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#skills">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="card reveal">
+            <div class="container">
+                <div class="left">
+                    <h1 id="text"></h1>
+                    <p class="intro">
+                        I'm a recent university graduate and I'm currently exploring different areas to find what
+                        inspires
+                        me the most. As I experiment and learn new things, I will be sharing my progress here along the
+                        way.
+                    </p>
+                    <div class="actions">
+                        <a href="Ivan_Stefania_CV.pdf" class="btn" target="_blank">See my CV</a>
+                        <a href="#projects" class="btn">See my projects</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="profile-pic">
+                        <img src="images/profile-pic.png" alt="Stefania Ivan">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-about reveal">
+            <h3>Education 🎓</h3>
+            <div class="education-container">
+                <div class="education-text">
+                    <ul>
+                        <li>
+                            Bachelor's Degree in Computers and Information Technology,
+                            Faculty of Automation and Computers,
+                            Technical University of Cluj-Napoca (2021–2025)
+                        </li>
+                    </ul>
+                </div>
+                <div class="education-image">
+                    <img src="images/fac.jpg" alt="Technical University of Cluj-Napoca">
+                </div>
+            </div>
+            <h3>Professional Interests</h3>
+            <p>
+                I have experience in Frontend and Backend development, I enjoy working with Arduino,
+                and I'm looking forward to explore and deepen my knowledge in Cybersecurity in the near future.
+            </p>
+            <h3>Languages</h3>
+            <div class="languages">
+                <div class="language">
+                    <div class="left">
+                        <span>English - Cambridge English: First (FCE)</span>
+                    </div>
+                    <div class="right">
+                        <div class="bar">
+                            <div class="fill b2"></div>
+                        </div>
+                        <span class="level">B2</span>
+                    </div>
+                </div>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+                <div class="language">
+                    <div class="left">
+                        <span>French</span>
+                    </div>
+                    <div class="right">
+                        <div class="bar">
+                            <div class="fill a2"></div>
+                        </div>
+                        <span class="level">A2</span>
+                    </div>
+                </div>
 
+                <div class="language">
+                    <div class="left">
+                        <span>Spanish</span>
+                    </div>
+                    <div class="right">
+                        <div class="bar">
+                            <div class="fill a1"></div>
+                        </div>
+                        <span class="level">A1</span>
+                    </div>
+                </div>
+            </div>
+            <h3>Hobbies</h3>
+            <p>Sports 🎾, Art 🎨</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="card-projects reveal">
+            <h3>Projects💻</h3>
+            <a href="https://github.com/stefaniaivan" target="_blank" class="github-btn">
+                🐱 View GitHub Profile
+            </a>
+            <div class="projects__grid">
+                <div class="project__card">
+                    <img src="images/project1.png" alt="Project 1">
+                    <div class="project__info">
+                        <p class="title">Distributed energy management system </p>
+                        <p class="text-content">
+                            Within this project, I learned
+                            to use RabbitMQ for exchanging messages between application components, web
+                            sockets for implementing communication functionality between users, and Docker
+                            to containerize the application.
+                        </p>
+                        <a href="https://github.com/stefaniaivan/Sisteme_Distribuite" target="_blank"
+                            class="github-btn">Code &lt/&gt;</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="images/project2.png" alt="Project 2">
+                    <div class="project__info">
+                        <p class="title">Airline website frontend</p>
+                        <p class="text-content">
+                            In this project, I implemented
+                            a frontend application for an airline ticket website using React.
+                        </p>
+                        <a href="https://github.com/stefaniaivan/Inginerie_Software" target="_blank"
+                            class="github-btn">Code &lt/&gt;</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="images/project3.png" alt="Project 3">
+                    <div class="project__info">
+                        <p class="title">Airline website backend</p>
+                        <p class="text-content">
+                            Through this project, I learned
+                            the structure of a backend application using Spring Boot, I learned how to integrate
+                            and use SQL and Jpa at the level of such an application, and I made HTTP calls using
+                            Postman.
+                        </p>
+                        <a href="https://github.com/stefaniaivan/Proiectare_Software" target="_blank"
+                            class="github-btn">Code &lt/&gt;</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="images/project4.png" alt="Project 4">
+                    <div class="project__info">
+                        <p class="title">Polynomial calculator</p>
+                        <p class="text-content">
+                            This polynomial calculator was built using the MVC architecture. In this topic, I learned
+                            how to structure code into multiple classes in order to
+                            perform different tasks, worked with more complex data structures, and created unit
+                            tests to verify the correctness of mathematical calculation results.
+                        </p>
+                        <a href="https://github.com/PT202330227IvanStefania/PT2023_30227_Stefania_Ivan_Assignment_1 -"
+                            target="_blank" class="github-btn">Code &lt/&gt;</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="images/project5.png" alt="Project 5">
+                    <div class="project__info">
+                        <p class="title">Customer queue management system</p>
+                        <p class="text-content">
+                            This project implements a queue management system. In this topic, I
+                            was able to observe the functionality of threads in an application and how
+                            synchronization issues are addressed.
+                        </p>
+                        <a href="https://github.com/PT202330227IvanStefania/PT2023_30227_Stefania_Ivan_Assignment_2"
+                            target="_blank" class="github-btn">Code &lt/&gt;</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="images/project6.png" alt="Project 6">
+                    <div class="project__info">
+                        <p class="title">Application for a warehouse</p>
+                        <p class="text-content">
+                            This topic represents the implementation of a warehouse order
+                            management application. Through it, I learned how to connect a database to a Java
+                            project in order to manipulate data and how to apply SQL concepts in such an
+                            application.
+                        </p>
+                        <a href="https://github.com/PT202330227IvanStefania/PT2023_30227_Stefania_Ivan_Assignment_3"
+                            target="_blank" class="github-btn">Code &lt/&gt;</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="images/project7.jpg" alt="Project 7">
+                    <div class="project__info">
+                        <p class="title">Arduino Security System</p>
+                        <p class="text-content">
+                            For this project, I learned to integrate hardware components with Arduino and implement
+                            biometric
+                            authentication. This project allowed me to apply programming logic and develop a complete
+                            security system,
+                            focusing on safety and access control.
+                        </p>
+                        <a href="https://github.com/stefaniaivan/ArduinoSecuritySystem" target="_blank"
+                            class="github-btn">Code &lt/&gt;</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="images/project8.jpg" alt="Project 8">
+                    <div class="project__info">
+                        <p class="title">Commercial Network Design</p>
+                        <p class="text-content">
+                            For this project, I designed a multi-floor network with VLANs, a DMZ for public servers, and
+                            NAT for Internet access. I gained hands-on experience with DHCP, routing, VTP, and securing
+                            devices using SSH and user privileges.
+                        </p>
+                        <a href="https://github.com/stefaniaivan/PPRC" target="_blank" class="github-btn">Code
+                            &lt/&gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="card-skills reveal">
+            <h3>Skills</h3>
+            <div class="skills-grid">
+                <div class="skill">C</div>
+                <div class="skill">Java</div>
+                <div class="skill">CSS</div>
+                <div class="skill">SQL</div>
+                <div class="skill">HTML</div>
+                <div class="skill">TypeScript</div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>📬 Contact</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:stefa_2002_nia@yahoo.com">stefa_2002_nia@yahoo.com</a></p>
+            <p>Phone: <a href="tel:+40729946536">+40729946536</a></p>
+            <p>Address: Rm. Valcea, Romania</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

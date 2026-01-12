@@ -579,6 +579,20 @@ ul {
         height: 100%;
     }
 
+    .project__info p.title {
+        font-size: 14px;
+    }
+
+    .project__info .text-content {
+        font-size: 10px;
+    }
+
+    .project__info .github-btn {
+        font-size: 12px;
+        width: 50px;
+        height: 70px;
+    }
+
     .skills-grid {
         gap: 10px;
     }

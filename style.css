@@ -285,15 +285,8 @@ ul {
     height: 100%;
     background: linear-gradient(90deg, #ff0077, #ff55b7);
     border-radius: 10px;
-    width: 0;
-    animation: fillAnimation 1.5s forwards;
 }
 
-@keyframes fillAnimation {
-    from {
-        width: 0;
-    }
-}
 
 .fill.b2 {
     width: 80%;
@@ -496,7 +489,7 @@ ul {
     .card-about,
     .card-projects,
     .card-skills {
-        width: 90%;
+        width: 82%;
         padding: 30px 20px;
         margin: 40px auto;
     }
@@ -549,12 +542,25 @@ ul {
     .language {
         flex-direction: column;
         align-items: flex-start;
-        gap: 8px;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .language .right {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
     }
 
     .bar {
+        width: 100%;
         max-width: 100%;
     }
+
+    .fill.b2 { width: 80%; }
+    .fill.a2 { width: 55%; }
+    .fill.a1 { width: 35%; }
 
     .projects__grid {
         grid-template-columns: 1fr;
